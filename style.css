@@ -30,3 +30,70 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
+body{
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #102746;
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+/* Header styles start */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item{
+    margin-right: 82px ;
+}
+
+.header_item:last-child{
+    margin-right: 0;
+}
+
+.header_link{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active{
+    opacity: 75%;
+}
+/* Header styles end */
+
+/* Intro styles start */
+.intro{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: url(/img/Image.jpg) no-repeat center center;
+}
+/* Intro styles end */
+
