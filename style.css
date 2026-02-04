@@ -90,10 +90,25 @@ header{
 
 /* Intro styles start */
 .intro{
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
     background-size: cover;
-    background: url(/img/Image.jpg) no-repeat center center;
+    background: url(/img/Image.jpg) no-repeat  center;
+    padding-top: 263px;
+}
+.intro_tittle{
+    margin-bottom: 22px;
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 50;
+    line-height: 60px;
+   color: white;
+}
+.intro_subtittle{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 546px;
+    margin-bottom: 59px;
 }
 /* Intro styles end */
 
