@@ -110,5 +110,42 @@ header{
     max-width: 546px;
     margin-bottom: 59px;
 }
+.search_form-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search_form-wrap{
+    border: 0;
+}
+.search_form-field{
+    background: transparent url(/img/Oval.svg) no-repeat left 6px ;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid white;
+    margin-right: 60px;
+    width: 297px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.search_form-field::placeholder{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.search_form-submit{
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-weight: 500px;
+    color: white;
+    font-size: 24px;
+    background: #1B7DFF;
+    border: 0;
+}
+.search_form-submit:hover, .search_form-submit:focus, .search_form-submit:active{
+    background: #023f8e;
+}
 /* Intro styles end */
 
