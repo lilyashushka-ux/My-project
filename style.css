@@ -1,26 +1,26 @@
 /* lato-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/lato-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../Fonts/lato-v25-latin/lato-v25-latin-regular.woff2') format('woff2');
 }
 /* lato-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/lato-v25-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../Fonts/lato-v25-latin/lato-v25-latin-700.woff2') format('woff2');
 }
 /* lato-900 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
-  src: url('../fonts/lato-v25-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../Fonts/lato-v25-latin/lato-v25-latin-900.woff2') format('woff2');
 }
 
 
@@ -31,7 +31,7 @@ html{
     box-sizing: inherit;
 }
 body{
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-size: 16px;
     font-weight: normal;
@@ -39,7 +39,6 @@ body{
     color: #102746;
     margin: 0;
     padding: 0;
-
 }
 .wrapper{
     max-width: 1060px;
@@ -47,14 +46,12 @@ body{
 }
 
 /* Header styles start */
-
 header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
-
 .header_wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -62,27 +59,22 @@ header{
     justify-content: space-between;
     padding-top: 56px;
 }
-
 .header_list{
     display: flex;
     flex-wrap: wrap;
 }
-
 .header_item{
     margin-right: 82px ;
 }
-
 .header_item:last-child{
     margin-right: 0;
 }
-
 .header_link{
     font-size: 18px;
     line-height: 24px;
     color: white;
     text-decoration: none;
 }
-
 .header_link:hover, .header_link:focus, .header_link:active{
     opacity: 75%;
 }
@@ -148,4 +140,32 @@ header{
     background: #023f8e;
 }
 /* Intro styles end */
+
+/*Benefits styles start*/
+.benefits_wrap{
+    max-width: 1262px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+}
+.benefits_tittle{
+    width: 100%;
+    font-size: 35px;
+    font-weight: 500px;
+    line-height: 42px;
+    padding: 93px 100px 88px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: white;
+}
+.benefits_cards{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 55px;
+}
+/*Benefits styles end*/
+
 
