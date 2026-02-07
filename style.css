@@ -40,6 +40,10 @@ body{
     margin: 0;
     padding: 0;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 .wrapper{
     max-width: 1060px;
     margin: 0 auto;
@@ -86,14 +90,15 @@ header{
     background-size: cover;
     background: url(/img/Image.jpg) no-repeat  center;
     padding-top: 263px;
+    padding-bottom: 376px;
 }
 .intro_tittle{
     margin-bottom: 22px;
     max-width: 619px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 50;
     line-height: 60px;
-   color: white;
+    color: white;
 }
 .intro_subtittle{
     color: white;
@@ -119,18 +124,18 @@ header{
     padding-left: 43px;
     padding-bottom: 22px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
 }
 .search_form-field::placeholder{
     color: white;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
 }
 .search_form-submit{
     padding: 15px 39px;
     text-transform: uppercase;
-    font-weight: 500px;
+    font-weight: 700;
     color: white;
     font-size: 24px;
     background: #1B7DFF;
@@ -142,6 +147,9 @@ header{
 /* Intro styles end */
 
 /*Benefits styles start*/
+.benefits{
+    margin-bottom: 131px;
+}
 .benefits_wrap{
     max-width: 1262px;
     margin: 0 auto;
@@ -152,10 +160,10 @@ header{
 .benefits_tittle{
     width: 100%;
     font-size: 35px;
-    font-weight: 500px;
+    font-weight: 700;
     line-height: 42px;
     padding: 93px 100px 88px 100px;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     transform: translateY(-100%);
@@ -165,6 +173,42 @@ header{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-column-gap: 55px;
+    padding: 0 100px;
+}
+.benefits_card{
+    grid-column: span 1;
+    margin-bottom: 112px;
+}
+.benefits_card-pic{
+    margin-bottom: 37px;
+    max-width: 66px;
+}
+.benefits_card-thumb{
+    display: block;
+}
+.benefits_card-tittle{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+.benefits_card-desc{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 39px;
+}
+.benefits_card-more{
+    display: inline-block;
+    padding-right: 59px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 109, 254, 1);
+    text-decoration: none;
+    background: url(img/Shape.svg) no-repeat 95%  center;
+    transition: 0.2s all ;
+}
+.benefits_card-more:hover, .benefits_card-more:focus{
+     background: url(img/Shape.svg) no-repeat right center;
 }
 /*Benefits styles end*/
 
