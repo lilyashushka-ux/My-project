@@ -235,12 +235,15 @@ header{
 /*Benefits styles end*/
 
 /*Places styles start*/
+.places{
+    background-color: #fff;
+}
 .places_caption{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-     margin-bottom: 36px;
+    margin-bottom: 36px;
 }
 .places_view-all{
     font-size: 16px;
@@ -254,5 +257,68 @@ header{
 }
 .places_view-all:hover, .places_view-all:focus{
    opacity: 0.65;
+}
+.places_cards{
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+}
+.places_card{
+position: relative;
+overflow: hidden;
+height: 100%;
+margin: 0;
+}
+figure{
+    margin: 0;
+}
+.places_card:hover .places_card-pic{
+    transform: scale(1.05);
+}
+.places_card::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.places_card-title{
+    position: absolute;
+    bottom: 27px;
+    left: 29px;
+    z-index: 3;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.places_card_size_lg{
+    grid-column: span 3;
+    height: 354px;
+}
+.places_card_size_sm{
+     grid-column: span 2;
+}
+.places_card-pic{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.15s all;
+}
+.places_card-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.places_card-pic_size_lg{
+    object-fit: cover;
+}
+.places_card-pic_size_sm{
+    object-fit: cover;
 }
 /*Places styles end*/
