@@ -178,7 +178,7 @@ header{
 }
 .benefits_wrap{
     max-width: 1262px;
-    margin: -30vh auto 0;
+    margin: -25vh auto 0;
     z-index: 10;
     background-color: white;
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
@@ -445,9 +445,19 @@ figure{
 
 
 /*Adaptive styles start*/
-@media (min-width: 1592px){
-    .benefits_wrap{
-        margin: 5vh auto 0;
-    }
+@media (min-width: 768px){
+    /* tablet */
+}
+
+@media (min-width: 1024px){
+    /* laptop */
+}
+
+@media (min-width: 1280px){
+    /* desktop */
+}
+
+@media (min-width: 1440px){
+    /* large desktop */
 }
 /*Adaptive styles end*/
