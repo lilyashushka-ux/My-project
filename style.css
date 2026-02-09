@@ -77,6 +77,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
 }
 .header_wrapper{
     display: flex;
@@ -109,9 +110,12 @@ header{
 /* Intro styles start */
 .intro{
     min-height: 100vh;
-    background-size: cover;
     background: url(/img/Image.jpg) no-repeat  center;
-    padding-top: 263px;
+    background-size: cover;
+    padding-top: 20vh;
+    padding-bottom: 25vh;
+    position: relative;
+    z-index: 1;
 }
 .intro_tittle{
     margin-bottom: 22px;
@@ -131,6 +135,7 @@ header{
 .search_form-info{
     display: flex;
     flex-wrap: wrap;
+    gap: 40px;
 }
 .search_form-wrap{
     border: 0;
@@ -173,7 +178,8 @@ header{
 }
 .benefits_wrap{
     max-width: 1262px;
-    margin: 0 auto;
+    margin: -30vh auto 0;
+    z-index: 10;
     background-color: white;
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
     position: relative;
@@ -184,10 +190,6 @@ header{
     font-weight: 700;
     line-height: 42px;
     padding: 93px 100px 88px 100px;
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: translateY(-100%);
     background-color: white;
 }
 .benefits_cards{
@@ -383,7 +385,7 @@ figure{
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgb(21, 24, 36, 0.6);
+    background: rgba(21, 24, 36, 0.6);
     padding: 16px 25px;
 }
 .top_card-title{
@@ -410,7 +412,7 @@ figure{
     padding-right: 23px;
     background: url(img/coment\ icon.svg) no-repeat right;
 }
-.top_card-desс{
+.top_card-desc{
     font-size: 16px;
      line-height: 24px;
      margin-bottom: 31px;
@@ -425,4 +427,27 @@ figure{
 .top_card-more:hover, .top_card-more:focus, .top_card-more:active{
     background: #023f8e;
 }
+.top_card-thumb{
+    width: 100%;
+    display: block;
+}
 /*Top styles end*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Adaptive styles start*/
+@media (min-width: 1592px){
+    .benefits_wrap{
+        margin: 5vh auto 0;
+    }
+}
+/*Adaptive styles end*/
