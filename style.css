@@ -358,3 +358,71 @@ figure{
    opacity: 0.65;
 }
 /*Tours styles end*/
+/*Top styles start*/
+.top{
+    margin-bottom: 86px;
+}
+.top_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+.top_title{
+    margin-bottom: 54px;
+}
+.top_card-pic{
+    position: relative;
+    margin-bottom: 45px;
+}
+.top_card-stats{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(21, 24, 36, 0.6);
+    padding: 16px 25px;
+}
+.top_card-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    margin: 0 auto 0 0;
+}
+.top_card-likes{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    padding-right: 20px;
+    background: url(img/like\ icon.svg) no-repeat right;
+    margin-right: 14px;
+}
+.top_card-coment{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    padding-right: 23px;
+    background: url(img/coment\ icon.svg) no-repeat right;
+}
+.top_card-desс{
+    font-size: 16px;
+     line-height: 24px;
+     margin-bottom: 31px;
+}
+.top_card-more{
+    padding: 12px 19px;
+    background: rgba(0, 109, 254, 1);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.top_card-more:hover, .top_card-more:focus, .top_card-more:active{
+    background: #023f8e;
+}
+/*Top styles end*/
