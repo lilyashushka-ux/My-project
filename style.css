@@ -112,7 +112,6 @@ header{
     background-size: cover;
     background: url(/img/Image.jpg) no-repeat  center;
     padding-top: 263px;
-    padding-bottom: 376px;
 }
 .intro_tittle{
     margin-bottom: 22px;
@@ -237,6 +236,7 @@ header{
 /*Places styles start*/
 .places{
     background-color: #fff;
+    margin-bottom: 131px;
 }
 .places_caption{
     display: flex;
@@ -296,7 +296,6 @@ figure{
 }
 .places_card_size_lg{
     grid-column: span 3;
-    height: 354px;
 }
 .places_card_size_sm{
      grid-column: span 2;
@@ -322,3 +321,40 @@ figure{
     object-fit: cover;
 }
 /*Places styles end*/
+
+/*Tours styles start*/
+.tours{
+    margin-bottom: 139px;
+}
+.tours_tour{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+.tour_info{
+    padding-left: 47px;
+}
+.tour_title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+.tour_desc{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+.tour_more{
+    font-size: 16px;
+    color:  rgba(0, 109, 254, 1);
+    text-decoration: none;
+    background: url(img/Shape.svg) no-repeat right center;
+    padding-right: 59px;
+}
+.tour_more:hover, .tour_more:focus{
+   opacity: 0.65;
+}
+/*Tours styles end*/
