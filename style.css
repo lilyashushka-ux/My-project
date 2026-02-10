@@ -39,6 +39,7 @@ body{
     color: #102746;
     margin: 0;
     padding: 0;
+    min-height: 150vh;
 }
 img{
     max-width: 100%;
@@ -72,12 +73,17 @@ img{
 }
 
 /* Header styles start */
-header{
+.header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
+   transition: 0.2s linear;
+   padding-bottom: 20px;
+   z-index: 999;
+}
+.header_active{
+background: #0e1d28;
 }
 .header_wrapper{
     display: flex;
@@ -433,10 +439,31 @@ figure{
 }
 /*Top styles end*/
 
+/*Videos styles start*/
+.videos{
+    width: 100%;
+}
+.videos_wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.video_item{
+    padding-top: 56.25%;
+}
+.video_element{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+/*Videos styles end*/
 
 
+/*Footer styles start*/
 
-
+/*Footer styles end*/
 
 
 
