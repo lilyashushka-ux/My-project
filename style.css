@@ -444,7 +444,7 @@ figure{
     width: 100%;
 }
 .videos_wrapper{
-    max-width: 1440px;
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
 }
@@ -462,7 +462,39 @@ height: 100%;
 
 
 /*Footer styles start*/
-
+.footer{
+   background: #0e1d28 ; 
+   padding: 119px 0px;
+}
+.footer_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_logo{
+    width: 50%;
+}
+.footer_nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer_menu-title{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.footer_menu-link{
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer_menu-link:hover, .footer_menu-link:focus, .footer_menu-link:active{
+    opacity: 0.75;
+}
 /*Footer styles end*/
 
 
