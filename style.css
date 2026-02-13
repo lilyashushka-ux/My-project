@@ -529,6 +529,33 @@ height: 100%;
 
 
 /*Media start*/
+@media screen and (max-width: 960px){
+    .benefits{
+        margin-bottom: 75px;
+    }
+    .benefits_card{
+        margin-bottom: 60px;
+    }
+    .search_form-field{
+        margin-bottom: 25px;
+    }
+    .benefits_cards{
+        padding: 0 15px;
+        grid-column-gap: 35px;
+    }
+    .benefits_tittle{
+        padding: 55px 15px;
+    }
+    .benefits_wrap{
+        box-shadow: none;
+    }
+    .places_card_size_lg{
+        grid-column: span 6;
+    }
+    .places_card_size_sm{
+        grid-column: span 6;
+    }
+}
 @media screen and (max-width: 767px){
 .header_burger{
     display: block;
