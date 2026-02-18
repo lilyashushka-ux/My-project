@@ -696,11 +696,26 @@ top: 50%;
 .places_card-pic_size_lg,.places_card-pic_size_sm{
     height: 230px;
 }
+.tours{
+    margin-bottom: 76px;
+}
 .tour_pic, .tour_info{
     grid-column: span 2;
 }
 .tour_pic{
     margin-bottom: 12px;
+}
+.tour_pic_mob-first{
+grid-row-start: -1;
+}
+.tours_tour{
+    margin-bottom: 50px;
+}
+.top_card{
+    grid-column: span 6;
+}
+.top_card-desc{
+    margin-bottom: 15px;
 }
 }
 @media screen and (max-width: 500px){
