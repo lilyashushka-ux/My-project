@@ -190,7 +190,7 @@ background: #0e1d28;
     border: 0;
 }
 .search_form-field{
-    background: transparent url(img/oval.svg) no-repeat left 6px ;
+    background: transparent url('../img/oval.svg') no-repeat left 6px ;
     background-size: 20px;
     border: 0;
     border-bottom: 2px solid white;
@@ -301,13 +301,13 @@ background: #0e1d28;
     line-height: 24px;
     color: rgba(0, 109, 254, 1);
     text-decoration: none;
-    background: url(img/shape.svg) no-repeat 95%  center;
+    background: url(../img/shape.svg) no-repeat 95%  center;
     -webkit-transition: 0.2s all ;
     -o-transition: 0.2s all ;
     transition: 0.2s all ;
 }
 .benefits_card-more:hover, .benefits_card-more:focus{
-     background: url(img/shape.svg) no-repeat right center;
+     background: url(../img/shape.svg) no-repeat right center;
 }
 /*Benefits styles end*/
 
@@ -334,7 +334,7 @@ background: #0e1d28;
     font-size: 16px;
     color:  rgba(0, 109, 254, 1);
     text-decoration: none;
-    background: url(img/shape.svg) no-repeat right center;
+    background: url(../img/shape.svg) no-repeat right center;
     padding-right: 59px;
 }
 .places_title{
@@ -453,7 +453,7 @@ figure{
     font-size: 16px;
     color:  rgba(0, 109, 254, 1);
     text-decoration: none;
-    background: url(img/shape.svg) no-repeat right center;
+    background: url(../img/shape.svg) no-repeat right center;
     padding-right: 59px;
 }
 .tour_more:hover, .tour_more:focus{
@@ -522,7 +522,7 @@ figure{
     line-height: 24px;
     color: white;
     padding-right: 20px;
-    background: url(img/like-icon.svg) no-repeat right;
+    background: url(../img/like-icon.svg) no-repeat right;
     margin-right: 14px;
 }
 .top_card-coment{
@@ -531,7 +531,7 @@ figure{
     line-height: 24px;
     color: white;
     padding-right: 23px;
-    background: url(img/coment-icon.svg) no-repeat right;
+    background: url(../img/coment-icon.svg) no-repeat right;
 }
 .top_card-desc{
     font-size: 16px;
@@ -762,7 +762,7 @@ top: 50%;
     margin-right: 0;
     width: 100%;
     padding-bottom: 12px;
-    background: transparent url(/img/oval.svg) no-repeat left 2px;
+    background: transparent url('../img/oval.svg') no-repeat left 2px;
 }
 .search_form-field::-webkit-input-placeholder{
     font-size: 16px;
