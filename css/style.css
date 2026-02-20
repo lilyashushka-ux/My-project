@@ -744,9 +744,9 @@ top: 50%;
             transform: translateY(-50%) rotate(45deg);
 }
 .header_nav-line:last-child{
-    -webkit-transform: translateY(-50%) rotate(45deg);
-        -ms-transform: translateY(-50%) rotate(45deg);
-            transform: translateY(-50%) rotate(45deg);
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+        -ms-transform: translateY(-50%) rotate(-45deg);
+            transform: translateY(-50%) rotate(-45deg);
 }
 .intro{
     padding-top: 125px;
