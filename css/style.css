@@ -522,7 +522,7 @@ figure{
     line-height: 24px;
     color: white;
     padding-right: 20px;
-    background: url('img/like-icon.svg') no-repeat right;
+    background: url('../img/like-icon.svg') no-repeat right;
     margin-right: 14px;
 }
 .top_card-coment{
@@ -531,7 +531,7 @@ figure{
     line-height: 24px;
     color: white;
     padding-right: 23px;
-    background: url('img/coment-icon.svg') no-repeat right;
+    background: url('../img/coment-icon.svg') no-repeat right;
 }
 .top_card-desc{
     font-size: 16px;
