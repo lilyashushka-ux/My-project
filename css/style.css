@@ -762,7 +762,7 @@ top: 50%;
     margin-right: 0;
     width: 100%;
     padding-bottom: 12px;
-    background: transparent url('img/oval.svg') no-repeat left 2px;
+    background: transparent url('../img/oval-icon.svg') no-repeat left 2px;
 }
 .search_form-field::-webkit-input-placeholder{
     font-size: 16px;
@@ -822,7 +822,6 @@ top: 50%;
     margin-bottom: 12px;
 }
 .tour_pic_mob-first{
--ms-grid-row: -1;
     grid-row-start: -1;
 }
 .tours_tour{
